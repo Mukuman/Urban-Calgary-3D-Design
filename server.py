@@ -9,6 +9,10 @@ from shapely import wkt
 from shapely.geometry import Polygon
 from shapely.errors import WKTReadingError
 from llm_query import parse_query_with_llm
+from dotenv import load_dotenv
+
+
+load_dotenv()
 
 
 # -----------------------------------------------------------------------------
