@@ -63,7 +63,9 @@ You can get a free Hugging Face token at: https://huggingface.co/settings/tokens
 
 ### 5. Run the Backend Server
 
+```
 python ./server.py
+```
 Visit the link provided to view it locally.
 
 Parameters for the query currently contain height, and status (new or contructed) as according to dataset.
