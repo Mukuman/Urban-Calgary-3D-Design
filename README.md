@@ -40,9 +40,6 @@ git clone https://github.com/yourusername/yourrepo.git
 cd yourrepo
 ### 2. Create a Virtual Environment
 ```
-bash
-Copy
-Edit
 python -m venv venv
 source venv/bin/activate   # Windows: venv\Scripts\activate
 ```
@@ -63,7 +60,9 @@ You can get a free Hugging Face token at: https://huggingface.co/settings/tokens
 
 ### 5. Run the Backend Server
 
+```
 python ./server.py
+```
 Visit the link provided to view it locally.
 
 Parameters for the query currently contain height, and status (new or contructed) as according to dataset.
