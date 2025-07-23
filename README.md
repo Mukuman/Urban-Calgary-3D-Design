@@ -40,9 +40,6 @@ git clone https://github.com/yourusername/yourrepo.git
 cd yourrepo
 ### 2. Create a Virtual Environment
 ```
-bash
-Copy
-Edit
 python -m venv venv
 source venv/bin/activate   # Windows: venv\Scripts\activate
 ```
