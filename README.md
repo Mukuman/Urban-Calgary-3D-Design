@@ -10,10 +10,10 @@ An interactive 3D city visualization dashboard that allows users to query Calgar
 
 - 🌇 3D Visualization of Calgary buildings using **Three.js**
 - 🧠 Natural language queries via **Hugging Face Inference API**
-- 🔍 Highlight buildings that match user queries
+- 🔍 Highlight buildings that match user queries about stage and height
 - 🧼 Clear query/reset highlights
 - 🗃️ (Planned) Store user/project data with SQLite
-
+- Parameters for the query currently contain height, and status (new or contructed) as according to dataset.
 ---
 
 ## 🧰 Tech Stack
@@ -64,5 +64,3 @@ You can get a free Hugging Face token at: https://huggingface.co/settings/tokens
 python ./server.py
 ```
 Visit the link provided to view it locally.
-
-Parameters for the query currently contain height, and status (new or contructed) as according to dataset.
